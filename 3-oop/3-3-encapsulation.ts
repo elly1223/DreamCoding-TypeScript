@@ -20,6 +20,7 @@
     }
 
     fillCoffeeBeans(beans: number) {
+      // 따로 작성하지 않으면 기본적으론 다 public이다.
       if (beans < 0) {
         throw new Error('value for beans should be greater than 0');
       }
